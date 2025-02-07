@@ -1,0 +1,198 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.navv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+
+}
+.navv img {
+    
+    height: 40px;
+    filter: invert(1) brightness(0);
+    mix-blend-mode: difference;
+    
+
+
+    
+}
+.m{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-transform: capitalize;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.m li:nth-child(1) {
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+.r {
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+ .r img{
+    
+        width: 26px;
+        filter: invert(1) brightness(0);
+        cursor: pointer;
+    
+}
+
+
+.mainn{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+    
+
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.left1 {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            
+            
+    }
+    .left1 h1{
+                font-size: 6.5rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 10px;
+        width: 50vw;
+        align-items: center;
+
+
+
+    }
+    .left1 p{
+        width: 50vw;
+        text-transform: initial;
+        font-weight: 500;
+        
+    }
+    .left1 button{
+        width: 190px;
+        height: 50px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: aliceblue;
+        background-color: rgb(47, 97, 47);
+        border: none;
+        border-radius: 30px;
+        margin-left: 80px;
+        cursor: pointer;
+        margin-top: 50px;
+        
+    }
+     .left2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+        width: 60vw;
+        height: 80vh;
+        margin-left: 40px;
+        margin-bottom: 30px;
+     }
+     .b1{
+        display: flex;
+        
+        
+     }
+     .b1 img {
+        height: 80px;
+     }
+     .pp {
+        width: 15vw;
+        
+     }
+     .pp span {
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    font-size: 1.2rem;
+                    
+     }
+     .pp p{
+        text-transform: capitalize;
+        font-weight: 500;
+
+
+
+     }
+     .b2{
+        display: flex;
+        
+     }
+     .b2 img {
+        height: 50px;
+     }
+     .pp1 {
+        width: 15vw;
+        
+     }
+     .pp1 span {
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    font-size: 1.2rem;
+                    
+     }
+     .pp1 p{
+        text-transform: capitalize;
+        font-weight: 500;
+        
+
+
+     }
+     .b3{
+        display: flex;
+        
+     }
+     .b3 img {
+        height: 40px;
+     }
+     .pp2 {
+        width: 15vw;
+        
+     }
+     .pp2 span {
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    font-size: 1.3rem;
+                    
+     }
+     .pp2 p{
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: medium;
+        
+
+
+     }
