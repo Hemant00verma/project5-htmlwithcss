@@ -76,16 +76,19 @@ body{
             display: flex;
             flex-direction: column;
             height: 100%;
+            margin-top: 70px;
             
             
     }
     .left1 h1{
-                font-size: 6.5rem;
-                font-weight: bold;
+                font-size: 5.5rem;
+                font-weight: 800;
                 text-transform: uppercase;
-                letter-spacing: 10px;
-        width: 50vw;
-        align-items: center;
+                letter-spacing: 5px;
+                width: 40vw;
+               align-items: center;
+               margin-top: 10px;
+               
 
 
 
@@ -109,7 +112,7 @@ body{
         border-radius: 30px;
         margin-left: 80px;
         cursor: pointer;
-        margin-top: 50px;
+        margin-top: 30px;
         
     }
      .left2 {
@@ -128,7 +131,11 @@ body{
         
      }
      .b1 img {
-        height: 80px;
+        height: 50px;
+        mix-blend-mode: multiply;
+        border: none;
+        filter: brightness(1.2);
+
      }
      .pp {
         width: 15vw;
@@ -137,62 +144,77 @@ body{
      .pp span {
                     font-weight: bold;
                     text-transform: capitalize;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     
      }
      .pp p{
         text-transform: capitalize;
-        font-weight: 500;
+        font-weight: 450;
+        font-size: 0.8rem;
 
 
 
      }
      .b2{
-        display: flex;
-        
-     }
-     .b2 img {
-        height: 50px;
-     }
-     .pp1 {
-        width: 15vw;
-        
-     }
-     .pp1 span {
-                    font-weight: bold;
-                    text-transform: capitalize;
-                    font-size: 1.2rem;
-                    
-     }
-     .pp1 p{
-        text-transform: capitalize;
-        font-weight: 500;
-        
+      display: flex;
+      
+      
+   }
+   .b2 img {
+      height: 30px;
+      mix-blend-mode: multiply;
+      border: none;
+      filter: brightness(1.2);
+      margin-right: 8px;
+
+   }
+   .pp1 {
+      width: 15vw;
+      
+   }
+   .pp1 span {
+                  font-weight: bold;
+                  text-transform: capitalize;
+                  font-size: 1rem;
+                  
+   }
+   .pp1 p{
+      text-transform: capitalize;
+      font-weight: 450;
+      font-size: 0.8rem;
 
 
-     }
-     .b3{
-        display: flex;
-        
-     }
-     .b3 img {
-        height: 40px;
-     }
-     .pp2 {
-        width: 15vw;
-        
-     }
-     .pp2 span {
-                    font-weight: bold;
-                    text-transform: capitalize;
-                    font-size: 1.3rem;
-                    
-     }
-     .pp2 p{
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: medium;
-        
+
+   } .b3{
+      display: flex;
+      
+      
+   }
+   .b3 img {
+      height: 30px;
+      mix-blend-mode: multiply;
+      border: none;
+      filter: brightness(1.2);
+      margin-right: 8px;
+
+   }
+   .pp2 {
+      width: 15vw;
+      
+   }
+   .pp2 span {
+                  font-weight: bold;
+                  text-transform: capitalize;
+                  font-size: 1rem;
+                  
+   }
+   .pp2 p{
+      text-transform: capitalize;
+      font-weight: 450;
+      font-size: 0.8rem;
 
 
-     }
+
+   }
+
+     
